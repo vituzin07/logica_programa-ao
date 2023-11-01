@@ -1,0 +1,11 @@
+print(type(2.25-1))
+print(type(3.0*3))
+print(type(2*4))
+print(type(2.0**4))
+print(type(2/2.0))
+print(type(6/4))
+print(type(6%4))
+print(type(4%2))
+numero = 0.58
+numero_arrendondado = round(numero, 1)
+print(numero_arrendondado)
