@@ -9,3 +9,4 @@ print(type(4%2))
 numero = 0.58
 numero_arrendondado = round(numero, 1)
 print(numero_arrendondado)
+print(type(numero_arrendondado))
