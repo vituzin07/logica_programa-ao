@@ -1,2 +1,4 @@
-nome = input('Qual o seu nome?')
+nome = input('nome')
 print(nome)
+idade = input('idade')
+print(idade)
