@@ -1,4 +1,4 @@
-a = 6
-b = 7
+a = int(input('primeiro valor'))
+b = int(input('segundo valor'))
 soma = a+b
 print(soma)

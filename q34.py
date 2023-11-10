@@ -1,5 +1,6 @@
-dias = 4
-horas = 17
-minutos = 29
-segundos = 2
+dias = int(input('Insira a quantidae de dias '))
+horas = int(input('Insira a quantidade horas '))
+minutos = int(input('Insira a quantidade de minutos '))
+segundos = int(input('Insira a quantiade de segundos '))
 total_de_segundos = (dias * 24*60*60 + horas*60*60 + minutos*60 +segundos)
+print(total_de_segundos)
