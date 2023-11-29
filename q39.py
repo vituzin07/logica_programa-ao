@@ -1,4 +1,3 @@
-# Função para calcular o menor número de notas e moedas possíveis
 def calcular_notas_moedas(valor):
     notas_moedas = [100, 50, 20, 10, 5, 2, 1, 0.5, 0.25, 0.1, 0.05, 0.01]
     resultado = {}
@@ -11,13 +10,10 @@ def calcular_notas_moedas(valor):
 
     return resultado
 
-# Leitura do valor de ponto flutuante
 valor = float(input("Digite um valor monetário (duas casas decimais): "))
 
-# Cálculo das notas e moedas
 notas_moedas_calculadas = calcular_notas_moedas(valor)
 
-# Exibição do resultado
 print(f"Valor lido: R${valor:.2f}")
 print("Notas e moedas:")
 for nota_moeda, quantidade in notas_moedas_calculadas.items():
