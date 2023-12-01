@@ -1,3 +1,4 @@
+# acho que está errada, mas isso foi onde eu consegui chegar professora.
 numero_1=int(input('Insira o 1º número: '))
 numero_2=int(input('Insira o 2º número: '))
 numero_3=int(input('Insira o 3º número: '))
