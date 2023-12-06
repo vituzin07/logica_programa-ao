@@ -3,9 +3,7 @@ print('''F - Adicionar ao fim da fila
 A - Atende uma pessoa
 S - Sair do sistema\n''')
 while True:
-    escolha = str(input('''F - Adicionar ao fim da fila
-A - Atende uma pessoa
-S - Sair do sistema\n'''))
+    escolha = str(input('''Insira sua escolha:'''))
     if escolha == 'F':
         lista.insert(11, len(lista)+1)
         print(lista)
@@ -17,6 +15,4 @@ S - Sair do sistema\n'''))
     elif escolha == 'S':
         print('Você saiu do sistema.')
         break
-    escolha = str(input('''F - Adicionar ao fim da fila
-A - Atende uma pessoa
-S - Sair do sistema\n'''))
+    
